@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image: url(img.jpg);
+    width: 98%;
+}
+.container{
+    height: 550px;
+    width: 500px;
+    margin: 20px auto;
+    background: black;
+    box-shadow: 2px 2px 30px black;
+    opacity: 0.5;
+}
+h2{
+    color: white;
+}
+.btn{
+    background-color: skyblue;
+    border: none;
+    font-size: 12px;
+    width: 55px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: red;
+    float: right;
+}
+.liText{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    float: left;
+}
+.todo{
+    margin-top: 20px;
+    font-weight: bold;
+}
+#todo_item{
+    width: 280px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(230, 243, 248);
+}
+button{
+    height: 30px;
+    background-color: yellow;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
